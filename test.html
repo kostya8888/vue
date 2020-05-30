@@ -12,7 +12,7 @@
       
   </ul>
   <ul>
-    <li v-on:click="checked" v-for="(item, index) in lis">{{index}} - {{item}}</li>
+<!--     <li v-on:click="checked" v-for="(item, index) in lis">{{index}} - {{item}}</li> -->
   </ul>
   </div>
 
@@ -20,8 +20,8 @@
     var app = new Vue({
       el: '#app',
       data: {
-          val: 'empty string',
-          lis: ['list1', 'list2', 'list3']
+          val: 'empty string'
+          //lis: ['list1', 'list2', 'list3']
       },
       methods: {
         addItem (){
